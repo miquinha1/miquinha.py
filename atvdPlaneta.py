@@ -19,7 +19,7 @@ class planeta:
     
     def calcularPeso(self, massa):
         peso = massa * self.gravidadePlaneta
-        return f'{peso} N'
+        return peso
 
 class TestarPlaneta:
     def main():
@@ -36,6 +36,6 @@ class TestarPlaneta:
         P.setGravidadePlaneta(novaGravidade)
 
         peso = P.calcularPeso(massa)
-        print('O peso do planeta com a nova gravidade é:', peso)
+        print(f'O peso do planeta com a nova gravidade é: {peso} n')
 
 TestarPlaneta.main()
