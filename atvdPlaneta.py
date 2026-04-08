@@ -1,4 +1,4 @@
-# Micais Tavazes e Felipe Silva
+# Micais Tavares e Felipe Silva
 
 class planeta:
     def __init__(self, nomePlaneta, gravidadePlaneta):
